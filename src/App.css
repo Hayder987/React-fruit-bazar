@@ -1,0 +1,32 @@
+
+.mainDiv{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(181, 248, 248);
+  padding: 30px 40px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+  background-color: azure;
+  padding: 20px 30px;
+  border-radius: 1rem;
+}
+.fruit-section{
+
+}
+
+
+
+@media screen and (max-width: 556px){
+  .container{
+    width: 100%;
+  }
+}

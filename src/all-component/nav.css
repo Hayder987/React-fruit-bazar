@@ -1,0 +1,29 @@
+.navDiv{
+    display: flex ;
+    flex-direction: column;
+    
+  }
+  .nav{
+    padding: 16px 24px;
+    border: 1px solid blue;
+    border-radius: 16px;
+  }
+  .checkBox{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 12px;
+  }
+  .sortBtn{
+    height: 40px;
+    font-size: 18px;
+    padding: 10px 40px;
+  }
+  .priceDiv{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fruits-h1{
+    text-align: center;
+  }
+
